@@ -1,0 +1,50 @@
+{
+  "name": "memorable-milestones",
+  "version": "2.0.1",
+  "private": true,
+  "description": "Puts milestones on auto-pilot with memorable emoji names",
+  "main": "lib/main.js",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write **/*.ts",
+    "format-check": "prettier --check **/*.ts",
+    "lint": "eslint src/**/*.ts",
+    "pack": "ncc build",
+    "test": "jest",
+    "all": "npm run build && npm run format && npm run lint && npm run pack && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/instantish/memorable-milestones.git"
+  },
+  "keywords": [
+    "actions",
+    "node",
+    "milestone"
+  ],
+  "author": "Instantish",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^2.1.1",
+    "@octokit/rest": "^16.43.1",
+    "moment": "^2.29.2",
+    "semver": "^7.3.7"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "@types/node": "^16.11.26",
+    "@types/semver": "^7.3.9",
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "@vercel/ncc": "^0.33.4",
+    "eslint": "^8.13.0",
+    "eslint-plugin-github": "^4.3.6",
+    "eslint-plugin-jest": "^26.1.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.5.1",
+    "prettier": "^2.6.2",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3"
+  }
+}

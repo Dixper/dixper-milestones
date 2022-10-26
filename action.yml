@@ -1,0 +1,17 @@
+name: 'Memorable Milestones'
+description: '
+An opinionated GitHub Action that puts your milestones on auto-pilot, using memorable emoji names ✨'
+author: 'Instantish'
+branding:
+  icon: 'book'
+  color: 'white'
+inputs:
+  repo-token:
+    description: 'Token for the repository. Can be passed in using `{{ secrets.GITHUB_TOKEN }}`.'
+    required: true
+  debug-only:
+    description: 'Run the processor in debug mode without actually performing any operations on live milestones.'
+    default: false
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
