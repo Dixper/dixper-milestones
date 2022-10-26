@@ -35,22 +35,22 @@ export interface GlobalMilestone {
 
 // Milestones:
 //
-// `🍎  Apple` - May 14 2020
-// `🚲  Bike` - May 21 2020
-// `🌵  Cactus` - May 28 2020
-// `🦆  Duck` - June 4 2020 (@marissamarym's bday 🧁)
-// `🥚  Egg` - June 11 2020
-// `🥏  Frisbee` - June 18 2020
-// `🍇  Grape` - June 25 2020
-// `🐴  Horse` - July 2 2020
-// `🦞  Lobster` - July 9 2020
-// `🗺  Map` - July 16 2020
-// `🍊  Orange` - July 23 2020
-// `🦔  Porcupine` - July 30 2020
-// `☀️  Sun` - August 6 2020
-// `🎾  Tennis` - August 13 2020
-// `☂️  Umbrella` - August 20 2020
-// `🍉  Watermelon` - August 27 2020
+// `🍎  Apple` - May 13 2020
+// `🚲  Bike` - May 20 2020
+// `🌵  Cactus` - May 27 2020
+// `🦆  Duck` - June 3 2020 (@marissamarym's bday 🧁)
+// `🥚  Egg` - June 10 2020
+// `🥏  Frisbee` - June 17 2020
+// `🍇  Grape` - June 24 2020
+// `🐴  Horse` - July 1 2020
+// `🦞  Lobster` - July 8 2020
+// `🗺  Map` - July 15 2020
+// `🍊  Orange` - July 22 2020
+// `🦔  Porcupine` - July 29 2020
+// `☀️  Sun` - August 5 2020
+// `🎾  Tennis` - August 12 2020
+// `☂️  Umbrella` - August 19 2020
+// `🍉  Watermelon` - August 26 2020
 
 function _getFirstDueDate(date: string) {
   return moment.utc(date, 'YYYY-MM-DD', true).add(12, 'hours');
@@ -62,98 +62,98 @@ const APPLE = Object.freeze({
   id: 'APPLE',
   emoji: `🍎`,
   name: `Apple`,
-  firstDueDate: _getFirstDueDate('2020-05-14')
+  firstDueDate: _getFirstDueDate('2020-05-13')
 });
 
 const BIKE = Object.freeze({
   id: 'BIKE',
   emoji: `🚲`,
   name: `Bike`,
-  firstDueDate: _getFirstDueDate('2020-05-21')
+  firstDueDate: _getFirstDueDate('2020-05-20')
 });
 const CACTUS = Object.freeze({
   id: 'CACTUS',
   emoji: `🌵`,
   name: `Cactus`,
-  firstDueDate: _getFirstDueDate('2020-05-28')
+  firstDueDate: _getFirstDueDate('2020-05-27')
 });
 const DUCK = Object.freeze({
   id: 'DUCK',
   emoji: `🦆`,
   name: `Duck`,
-  firstDueDate: _getFirstDueDate('2020-06-04')
+  firstDueDate: _getFirstDueDate('2020-06-03')
 });
 const EGG = Object.freeze({
   id: 'EGG',
   emoji: `🥚`,
   name: `Egg`,
-  firstDueDate: _getFirstDueDate('2020-06-11')
+  firstDueDate: _getFirstDueDate('2020-06-10')
 });
 const FRISBEE = Object.freeze({
   id: 'FRISBEE',
   emoji: `🥏`,
   name: `Frisbee`,
-  firstDueDate: _getFirstDueDate('2020-06-18')
+  firstDueDate: _getFirstDueDate('2020-06-17')
 });
 const GRAPE = Object.freeze({
   id: 'GRAPE',
   emoji: `🍇`,
   name: `Grape`,
-  firstDueDate: _getFirstDueDate('2020-06-25')
+  firstDueDate: _getFirstDueDate('2020-06-24')
 });
 const HORSE = Object.freeze({
   id: 'HORSE',
   emoji: `🐴`,
   name: `Horse`,
-  firstDueDate: _getFirstDueDate('2020-07-02')
+  firstDueDate: _getFirstDueDate('2020-07-01')
 });
 const LOBSTER = Object.freeze({
   id: 'LOBSTER',
   emoji: `🦞`,
   name: `Lobster`,
-  firstDueDate: _getFirstDueDate('2020-07-09')
+  firstDueDate: _getFirstDueDate('2020-07-08')
 });
 const MAP = Object.freeze({
   id: 'MAP',
   emoji: `🗺`,
   name: `Map`,
-  firstDueDate: _getFirstDueDate('2020-07-16')
+  firstDueDate: _getFirstDueDate('2020-07-15')
 });
 const ORANGE = Object.freeze({
   id: 'ORANGE',
   emoji: `🍊`,
   name: `Orange`,
-  firstDueDate: _getFirstDueDate('2020-07-23')
+  firstDueDate: _getFirstDueDate('2020-07-22')
 });
 const PORCUPINE = Object.freeze({
   id: 'PORCUPINE',
   emoji: `🦔`,
   name: `Porcupine`,
-  firstDueDate: _getFirstDueDate('2020-07-30')
+  firstDueDate: _getFirstDueDate('2020-07-29')
 });
 const SUN = Object.freeze({
   id: 'SUN',
   emoji: `☀️`,
   name: `Sun`,
-  firstDueDate: _getFirstDueDate('2020-08-06')
+  firstDueDate: _getFirstDueDate('2020-08-05')
 });
 const TENNIS = Object.freeze({
   id: 'TENNIS',
   emoji: `🎾`,
   name: `Tennis`,
-  firstDueDate: _getFirstDueDate('2020-08-13')
+  firstDueDate: _getFirstDueDate('2020-08-12')
 });
 const UMBRELLA = Object.freeze({
   id: 'UMBRELLA',
   emoji: `☂️`,
   name: `Umbrella`,
-  firstDueDate: _getFirstDueDate('2020-08-20')
+  firstDueDate: _getFirstDueDate('2020-08-19')
 });
 const WATERMELON = Object.freeze({
   id: 'WATERMELON',
   emoji: `🍉`,
   name: `Watermelon`,
-  firstDueDate: _getFirstDueDate('2020-08-27')
+  firstDueDate: _getFirstDueDate('2020-08-26')
 });
 
 const map = new Map<string, GlobalMilestone>();
